@@ -1,0 +1,19 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Action":[
+				"cognito-idp:CreateUserPoolClient",	
+				"cognito-idp:DeleteUserPoolClient",	
+				"cognito-idp:AdminConfirmSignUp",	
+				"cognito-idp:AdminInitiateAuth",	
+				"cognito-idp:AdminDeleteUser",
+                "cognito-idp:AdminCreateUser",
+                "cognito-idp:AdminSetUserPassword"	,
+                "cognito-idp:CreateUserPool"
+			],
+			"Effect": "Allow",
+			"Resource": "*"
+		}
+	]
+}
